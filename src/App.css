@@ -1,6 +1,6 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 10vh auto;
   padding: 2rem;
   text-align: center;
 }
@@ -39,4 +39,41 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Added CSS for Puppy Data */
+.App {
+  /* align-items: center; */
+  display: grid;
+  grid-template-columns: 1 1;
+  font-family: 'chewy', sans-serif;
+  font-size: 18pt;
+}
+.puppy-name-container {
+  grid-column: 1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5%;
+  background-color: mediumpurple;
+}
+p:hover {
+  color: lightseagreen;
+}
+p::selection {
+  color:mediumpurple;
+}
+.details-container {
+grid-column: 2;
+margin: 10px;
+border-radius: 5%;
+background-color: rgb(63, 224, 216);
+color: mediumpurple;
+}
+ul {
+  list-style: none;
+}
+img {
+  margin: 10px 0;
+  width: 40%;
+  color: mediumpurple;
 }
